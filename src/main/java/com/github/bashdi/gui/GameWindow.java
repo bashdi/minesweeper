@@ -1,13 +1,10 @@
 package com.github.bashdi.gui;
 
-import com.github.bashdi.Minesweeper;
-
 import javax.swing.*;
 import java.awt.*;
 
 public class GameWindow extends JFrame {
 
-    public static Minesweeper minesweeper;
 
     public GameWindow() {
         setTitle("Minesweeper");
